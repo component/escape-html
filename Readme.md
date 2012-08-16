@@ -6,7 +6,7 @@
 ## Example
 
 ```js
-var escape = require('html-escape');
+var escape = require('escape-html');
 escape(str);
 ```
 
