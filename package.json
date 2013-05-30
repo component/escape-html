@@ -1,8 +1,13 @@
 {
   "name": "escape-html",
   "description": "Escape HTML entities",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": ["escape", "html", "utility"],
   "dependencies": {},
-  "main": "index.js"
+  "main": "index.js",
+  "component": {
+    "scripts": {
+      "escape-html/index.js": "index.js"
+    }
+  }
 }
