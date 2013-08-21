@@ -2,12 +2,20 @@
   "name": "escape-html",
   "description": "Escape HTML entities",
   "version": "1.0.0",
-  "keywords": ["escape", "html", "utility"],
+  "keywords": [
+    "escape",
+    "html",
+    "utility"
+  ],
   "dependencies": {},
   "main": "index.js",
   "component": {
     "scripts": {
       "escape-html/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/escape-html.git"
   }
 }
