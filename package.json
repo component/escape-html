@@ -13,5 +13,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/component/escape-html.git"
-  }
+  },
+  "license": "MIT",
+  "author" : "TJ Holowaychuk"
 }
