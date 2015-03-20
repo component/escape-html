@@ -5,6 +5,7 @@
   "keywords": ["escape", "html", "utility"],
   "dependencies": {},
   "main": "index.js",
+  "license": "MIT",
   "component": {
     "scripts": {
       "escape-html/index.js": "index.js"
