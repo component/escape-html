@@ -14,5 +14,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/component/escape-html.git"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js"
+  ]
 }
