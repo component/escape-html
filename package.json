@@ -5,6 +5,9 @@
   "keywords": ["escape", "html", "utility"],
   "dependencies": {},
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "component": {
     "scripts": {
       "escape-html/index.js": "index.js"
