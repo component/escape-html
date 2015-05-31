@@ -2,8 +2,13 @@
   "name": "escape-html",
   "description": "Escape HTML entities",
   "version": "1.0.1",
-  "keywords": ["escape", "html", "utility"],
-  "dependencies": {},
+  "license": "MIT",
+  "keywords": [
+    "escape",
+    "html",
+    "utility"
+  ],
+  "repo": "component/escape-html",
   "scripts": [
     "index.js"
   ]

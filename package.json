@@ -3,18 +3,12 @@
   "description": "Escape HTML entities",
   "version": "1.0.1",
   "license": "MIT",
-  "keywords": ["escape", "html", "utility"],
-  "dependencies": {},
-  "main": "index.js",
-  "component": {
-    "scripts": {
-      "escape-html/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/escape-html.git"
-  },
+  "keywords": [
+    "escape",
+    "html",
+    "utility"
+  ],
+  "repository": "component/escape-html",
   "files": [
     "LICENSE",
     "Readme.md",
