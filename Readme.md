@@ -1,13 +1,14 @@
 
 # escape-html
 
-  Escape HTML entities
+  Escape string for use in HTML
 
 ## Example
 
 ```js
 var escape = require('escape-html');
-escape(str);
+var html = escape('foo & bar');
+// -> foo &amp; bar
 ```
 
 ## License

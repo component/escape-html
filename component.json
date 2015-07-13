@@ -1,6 +1,6 @@
 {
   "name": "escape-html",
-  "description": "Escape HTML entities",
+  "description": "Escape string for use in HTML",
   "version": "1.0.2",
   "license": "MIT",
   "keywords": [
