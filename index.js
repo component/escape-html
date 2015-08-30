@@ -33,8 +33,8 @@ function escapeHtml(html) {
   for (i = regexResult.index; i < html.length; i++) {
     switch (html.charCodeAt(i)) {
       case 34: escape = '&quot;'; break;
-      case 39: escape = '&#39;';  break;
       case 38: escape = '&amp;';  break;
+      case 39: escape = '&#39;';  break;
       case 60: escape = '&lt;';   break;
       case 62: escape = '&gt;';   break;
       default:                    continue;
