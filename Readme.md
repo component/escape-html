@@ -16,7 +16,7 @@ var html = escape('foo & bar');
 ```
 $ npm run-script bench
 
-> escape-html@1.0.2 bench nodejs-escape-html
+> escape-html@1.0.3-pre bench nodejs-escape-html
 > node benchmark/index.js
 
 
@@ -33,9 +33,9 @@ $ npm run-script bench
   2 tests completed.
   3 tests completed.
 
-  no special characters    x 1,977,333 ops/sec ±1.17% (193 runs sampled)
-  single special character x 1,759,309 ops/sec ±0.82% (196 runs sampled)
-  many special characters  x 1,019,931 ops/sec ±0.69% (196 runs sampled)
+  no special characters    x 15,733,025 ops/sec ±0.92% (185 runs sampled)
+  single special character x  5,569,719 ops/sec ±0.90% (191 runs sampled)
+  many special characters  x  2,979,815 ops/sec ±0.85% (192 runs sampled)
 ```
 
 ## License
