@@ -31,7 +31,7 @@ module.exports = escapeHtml;
  */
 
 function escapeHtml(string) {
-  var str = String(string);
+  var str = '' + string;
   var match = matchHtmlRegExp.exec(str);
 
   if (!match) {
