@@ -1,7 +1,7 @@
 {
   "name": "escape-html",
   "description": "Escape string for use in HTML",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "keywords": [
     "escape",

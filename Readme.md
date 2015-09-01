@@ -16,7 +16,7 @@ var html = escape('foo & bar');
 ```
 $ npm run-script bench
 
-> escape-html@1.0.3-pre bench nodejs-escape-html
+> escape-html@1.0.3 bench nodejs-escape-html
 > node benchmark/index.js
 
 
