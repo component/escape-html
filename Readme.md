@@ -33,9 +33,9 @@ $ npm run-script bench
   2 tests completed.
   3 tests completed.
 
-  no special characters    x 15,733,025 ops/sec ±0.92% (185 runs sampled)
-  single special character x  5,569,719 ops/sec ±0.90% (191 runs sampled)
-  many special characters  x  2,979,815 ops/sec ±0.85% (192 runs sampled)
+  no special characters    x 15,913,255 ops/sec ±1.10% (187 runs sampled)
+  single special character x  5,610,789 ops/sec ±0.84% (192 runs sampled)
+  many special characters  x  3,042,399 ops/sec ±1.04% (193 runs sampled)
 ```
 
 ## License
