@@ -30,12 +30,11 @@ module.exports = escapeHtml;
  * @public
  */
 
-function escapeHtml(string) {
-  var str = String(string);
+function escapeHtml(str) {
   var match = matchHtmlRegExp.exec(str);
 
   if (!match) {
-    return str;
+    return '' + str;
   }
 
   var escape;
