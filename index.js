@@ -26,11 +26,12 @@ module.exports = escapeHtml;
  * Escape special characters in the given string of html.
  *
  * @param  {string} string The string to escape for inserting into HTML
+ * @param  {boolean} html5 Use &apos; instead of &#39 (valid HTML5 but not 4).
  * @return {string}
  * @public
  */
 
-function escapeHtml(string) {
+function escapeHtml(string, html5) {
   var str = '' + string;
   var match = matchHtmlRegExp.exec(str);
 
@@ -52,7 +53,7 @@ function escapeHtml(string) {
         escape = '&amp;';
         break;
       case 39: // '
-        escape = '&#39;';
+        escape = html5 ? '&apos;' : '&#39;';
         break;
       case 60: // <
         escape = '&lt;';
