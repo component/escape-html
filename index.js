@@ -26,13 +26,15 @@ module.exports = escapeHtml;
  * Escape special characters in the given string of html.
  *
  * @param  {string} string The string to escape for inserting into HTML
+ * @param {RegExp} [matchHtmlRegExp=/["'&<>]/] The RegExp to find the chars
+ * needs to be escaped.
  * @return {string}
  * @public
  */
 
-function escapeHtml(string) {
+function escapeHtml(string, customMatchHtmlRegExp) {
   var str = '' + string;
-  var match = matchHtmlRegExp.exec(str);
+  var match = (customMatchHtmlRegExp || matchHtmlRegExp).exec(str);
 
   if (!match) {
     return str;
