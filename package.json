@@ -11,7 +11,8 @@
   "repository": "component/escape-html",
   "devDependencies": {
     "benchmark": "1.0.0",
-    "beautify-benchmark": "0.2.4"
+    "beautify-benchmark": "0.2.4",
+    "eslint": "3.19.0"
   },
   "files": [
     "LICENSE",
@@ -19,6 +20,7 @@
     "index.js"
   ],
   "scripts": {
-    "bench": "node benchmark/index.js"
+    "bench": "node benchmark/index.js",
+    "lint": "eslint ."
   }
 }
