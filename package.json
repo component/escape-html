@@ -10,7 +10,7 @@
   ],
   "repository": "component/escape-html",
   "devDependencies": {
-    "benchmark": "1.0.0",
+    "benchmark": "2.1.4",
     "beautify-benchmark": "0.2.4",
     "eslint": "3.19.0"
   },
