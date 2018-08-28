@@ -23,7 +23,7 @@
   "files": [
     "HISTORY.md",
     "LICENSE",
-    "Readme.md",
+    "README.md",
     "index.js"
   ],
   "scripts": {
