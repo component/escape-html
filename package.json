@@ -21,6 +21,7 @@
     "mocha": "5.2.0"
   },
   "files": [
+    "HISTORY.md",
     "LICENSE",
     "Readme.md",
     "index.js"
