@@ -1,5 +1,7 @@
-
 # escape-html
+
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
 
   Escape string for use in HTML
 
@@ -56,3 +58,8 @@ $ npm run-script bench
 ## License
 
   MIT
+
+[downloads-image]: https://img.shields.io/npm/dm/escape-html.svg
+[downloads-url]: https://npmjs.org/package/escape-html
+[npm-image]: https://img.shields.io/npm/v/escape-html.svg
+[npm-url]: https://npmjs.org/package/escape-html
