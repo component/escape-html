@@ -36,7 +36,7 @@ suite.add({
   'name': 'many special characters',
   'minSamples': 100,
   'fn': 'escapeHtml(str)',
-  'setup': 'str = "\'>\'\\"\\"&>h<e>&<y>"'
+  'setup': 'str = "\'>\'\\"\\"&`>h<e>&<y>"'
 });
 
 suite.on('cycle', function onCycle(event) {

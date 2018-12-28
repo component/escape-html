@@ -13,7 +13,7 @@
  * @private
  */
 
-var matchHtmlRegExp = /["'&<>]/;
+var matchHtmlRegExp = /["'&<>`]/;
 
 /**
  * Module exports.
@@ -59,6 +59,9 @@ function escapeHtml(string) {
         break;
       case 62: // >
         escape = '&gt;';
+        break;
+      case 96: // `
+        escape = '&#96;';
         break;
       default:
         continue;
