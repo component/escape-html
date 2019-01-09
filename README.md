@@ -43,9 +43,9 @@ quote character (`"`) or a single quote character (`'`).
 ## Example
 
 ```js
-var escapeHtml = require('escape-html');
-var html = escapeHtml('foo & bar');
-// -> foo &amp; bar
+var escapeHtml = require('escape-html')
+var html = escapeHtml('foo & bar')
+console.log(html) // -> foo &amp; bar
 ```
 
 ## Benchmark
