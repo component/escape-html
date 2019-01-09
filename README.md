@@ -10,7 +10,15 @@
 This module exports a single function, `escapeHtml`, that is used to escape
 a string of content such that it can be interpolated in HTML content.
 
-This module will escape the following characters: `"`, `'`, `&`, `<`, and `>`.
+## API
+
+### escapeHtml(string)
+
+Escape special characters in the given string of text, such that it can be
+interpolated in HTML content.
+
+This function will escape the following characters: `"`, `'`, `&`, `<`, and
+`>`.
 
 **Note** that the escaped value is only suitable for being interpolated into
 HTML as the text content of elements in which the tag does not have different

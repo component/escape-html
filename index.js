@@ -23,7 +23,7 @@ var matchHtmlRegExp = /["'&<>]/
 module.exports = escapeHtml
 
 /**
- * Escape special characters in the given string of html.
+ * Escape special characters in the given string of text.
  *
  * @param  {string} string The string to escape for inserting into HTML
  * @return {string}
