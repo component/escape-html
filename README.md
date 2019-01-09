@@ -10,6 +10,16 @@
 This module exports a single function, `escapeHtml`, that is used to escape
 a string of content such that it can be interpolated in HTML content.
 
+## Installation
+
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/). Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+```bash
+$ npm install escape-html
+```
+
 ## API
 
 ### escapeHtml(string)
