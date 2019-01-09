@@ -3,6 +3,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Build Status][travis-image]][travis-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
 
   Escape string for use in HTML
 
@@ -60,6 +61,8 @@ $ npm run-script bench
 
   MIT
 
+[coveralls-image]: https://img.shields.io/coveralls/component/escape-html/master.svg
+[coveralls-url]: https://coveralls.io/r/component/escape-html?branch=master
 [downloads-image]: https://img.shields.io/npm/dm/escape-html.svg
 [downloads-url]: https://npmjs.org/package/escape-html
 [npm-image]: https://img.shields.io/npm/v/escape-html.svg

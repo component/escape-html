@@ -18,7 +18,8 @@
     "eslint-plugin-node": "8.0.1",
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-standard": "4.0.0",
-    "mocha": "5.2.0"
+    "mocha": "5.2.0",
+    "nyc": "13.1.0"
   },
   "files": [
     "HISTORY.md",
@@ -29,6 +30,7 @@
   "scripts": {
     "bench": "node benchmark/index.js",
     "lint": "eslint .",
-    "test": "mocha test/"
+    "test": "mocha test/",
+    "test-cov": "nyc --reporter=html --reporter=text npm test"
   }
 }
