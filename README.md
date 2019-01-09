@@ -2,6 +2,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
+[![Build Status][travis-image]][travis-url]
 
   Escape string for use in HTML
 
@@ -63,3 +64,5 @@ $ npm run-script bench
 [downloads-url]: https://npmjs.org/package/escape-html
 [npm-image]: https://img.shields.io/npm/v/escape-html.svg
 [npm-url]: https://npmjs.org/package/escape-html
+[travis-image]: https://img.shields.io/travis/component/escape-html/master.svg
+[travis-url]: https://travis-ci.org/component/escape-html
