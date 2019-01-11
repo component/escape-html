@@ -90,7 +90,7 @@ $ npm run-script bench
 
 ## License
 
-  MIT
+[MIT](LICENSE)
 
 [coveralls-image]: https://img.shields.io/coveralls/component/escape-html/master.svg
 [coveralls-url]: https://coveralls.io/r/component/escape-html?branch=master
