@@ -1,7 +1,7 @@
 # escape-html
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
+[![NPM Version][npm-version-image]][npm-url]
+[![NPM Downloads][npm-downloads-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
@@ -92,11 +92,10 @@ $ npm run-script bench
 
 [MIT](LICENSE)
 
-[coveralls-image]: https://img.shields.io/coveralls/component/escape-html/master.svg
+[coveralls-image]: https://badgen.net/coveralls/c/github/component/escape-html/master
 [coveralls-url]: https://coveralls.io/r/component/escape-html?branch=master
-[downloads-image]: https://img.shields.io/npm/dm/escape-html.svg
-[downloads-url]: https://npmjs.org/package/escape-html
-[npm-image]: https://img.shields.io/npm/v/escape-html.svg
+[npm-downloads-image]: https://badgen.net/npm/dm/escape-html
 [npm-url]: https://npmjs.org/package/escape-html
-[travis-image]: https://img.shields.io/travis/component/escape-html/master.svg
+[npm-version-image]: https://badgen.net/npm/v/escape-html
+[travis-image]: https://badgen.net/travis/component/escape-html/master
 [travis-url]: https://travis-ci.org/component/escape-html
