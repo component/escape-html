@@ -42,10 +42,23 @@ quote character (`"`) or a single quote character (`'`).
 
 ## Example
 
+The `escapeHtml` function is designed to accept a string input of text and
+return an escaped value to interpolate into HTML.
+
 ```js
 var escapeHtml = require('escape-html')
-var html = escapeHtml('foo & bar')
-console.log(html) // -> foo &amp; bar
+
+// example values
+var desc = 'I <b>think</b> this is good.'
+var fullName = 'John "Johnny" Smith'
+
+// example passing in text into a html attribute
+console.dir('<input name="full_name" value="' + escapeHtml(fullName) + '">')
+// -> '<input name="full_name" value="John &quot;Johnny&quot; Smith">'
+
+// example passing in text in html body
+console.dir('<textarea name="desc">' + escapeHtml(desc) + '</textarea>')
+// -> '<textarea name="desc">I &lt;b&gt;think&lt;/b&gt; this is good.</textarea>'
 ```
 
 ## Benchmark
