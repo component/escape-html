@@ -31,14 +31,16 @@ module.exports = { escapeHtml, escapeHtmlFast, escapeHtmlNoRegex }
  */
 
 var matchHtmlRegExpFast = /["'&<>]/g
-function escapeHtmlFast (str) {
+function escapeHtmlFast (string) {
+  var str = '' + string
+
   var lastIndex = 0
   var html = ''
   var escape = ''
   var match
 
   while (match = matchHtmlRegExpFast.test(str)) {
-    switch (str.charCodeAt(matchHtmlRegExpFast.lastIndex)) {
+    switch (str.charCodeAt(matchHtmlRegExpFast.lastIndex-1)) {
       case 34: // "
         escape = '&quot;'
         break
@@ -56,8 +58,8 @@ function escapeHtmlFast (str) {
         break
     }
     // console.log(lastIndex, matchHtmlRegExpFast.lastIndex, str.length)
-    html += str.substring(lastIndex, matchHtmlRegExpFast.lastIndex)
-    lastIndex = matchHtmlRegExpFast.lastIndex + 1
+    html += str.substring(lastIndex, matchHtmlRegExpFast.lastIndex - 1)
+    lastIndex = matchHtmlRegExpFast.lastIndex
     html += escape
   }
   return html + str.substring(lastIndex)
