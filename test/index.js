@@ -1,5 +1,5 @@
 var assert = require('assert')
-var escapeHtml = require('..')
+var escapeHtml = require('..').escapeHtmlFast
 
 describe('escapeHtml(string)', function () {
   describe('when string is undefined', function () {
