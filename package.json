@@ -9,9 +9,16 @@
     "utility"
   ],
   "repository": "component/escape-html",
+  "exports": {
+    ".": {
+        "require": "./index.js",
+        "import": "./index.mjs"
+      }
+  },
   "devDependencies": {
-    "benchmark": "2.1.4",
+    "@rollup/plugin-commonjs": "^22.0.2",
     "beautify-benchmark": "0.2.4",
+    "benchmark": "2.1.4",
     "eslint": "5.12.0",
     "eslint-config-standard": "12.0.0",
     "eslint-plugin-import": "2.14.0",
@@ -20,7 +27,8 @@
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-standard": "4.0.0",
     "mocha": "5.2.0",
-    "nyc": "13.1.0"
+    "nyc": "13.1.0",
+    "rollup": "^2.79.0"
   },
   "files": [
     "HISTORY.md",
@@ -32,6 +40,7 @@
     "bench": "node benchmark/index.js",
     "lint": "eslint --plugin markdown --ext js,md .",
     "test": "mocha test/",
-    "test-cov": "nyc --reporter=html --reporter=text npm test"
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "roll": "rollup --config rollup.config.mjs"
   }
 }

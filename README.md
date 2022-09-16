@@ -46,7 +46,8 @@ The `escapeHtml` function is designed to accept a string input of text and
 return an escaped value to interpolate into HTML.
 
 ```js
-var escapeHtml = require('escape-html')
+var escapeHtml = require('escape-html') // CommonJS require
+// import escapeHtml from 'escape-html' // ESM import
 
 // example values
 var desc = 'I <b>think</b> this is good.'
